@@ -1,5 +1,5 @@
-# Desafios_Backend
-This folder contains all the challenges for the Backend course @Coderhouse.
+# Final Project - Backend
+This folder contains the final project for the Backend course @Coderhouse.
 
 ## Confidenza - Ecommerce: Final project for the Backend course @[CoderHouse](https://www.coderhouse.com) (class #39685)
 ## Student: Martín Suarez
