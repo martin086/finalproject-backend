@@ -1,3 +1,4 @@
 node_modules
 .env*
 kubeusers.yaml
+Dockerfile
