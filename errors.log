@@ -1,0 +1,588 @@
+[34minfo[39m: GET en /logger - 1:50:42 PM
+[34minfo[39m: GET en /logger - 1:51:20 PM
+[34minfo[39m: GET en /logger - 1:51:24 PM
+[34minfo[39m: GET en /logger - 1:54:04 PM
+[34minfo[39m: GET en /logger - 2:05:16 PM
+[34minfo[39m: GET en /logger - 2:05:16 PM
+[34minfo[39m: GET en /logger - 2:05:27 PM
+[34minfo[39m: GET en /logger - 2:09:41 PM
+[34minfo[39m: GET en /logger - 2:33:50 PM
+[34minfo[39m: GET en /logger - 2:33:50 PM
+[34minfo[39m: GET en /loggerbla - 2:33:55 PM
+[34minfo[39m: GET en /error - 2:34:01 PM
+[34minfo[39m: GET en /logger - 2:34:10 PM
+[34minfo[39m: GET en /logger - 2:36:39 PM
+[34minfo[39m: GET en /logger - 2:36:39 PM
+[34minfo[39m: GET en /loggerTest/fatal - 2:40:00 PM
+[34minfo[39m: GET en /loggerTest/fatal - 2:40:35 PM
+[34minfo[39m: GET en /loggerTest/error - 2:40:48 PM
+[34minfo[39m: GET en /loggerTest/fatal - 2:57:50 PM
+[34minfo[39m: GET en /loggerTest - 2:57:54 PM
+[31mfatal[39m: 2:57:54 PM - ERROR FATAL, no hay precios en ciertos productos.
+[31merror[39m: 2:57:54 PM - ERROR, no hay stock en ciertos productos.
+[33mwarning[39m: 2:57:54 PM - WARNING, no hay imagenes en ciertos productos.
+[34minfo[39m: 2:57:54 PM - INFO, algunos avisos.
+[34minfo[39m: GET en /loggerTest - 2:59:18 PM
+[31mfatal[39m: 2:59:18 PM - ERROR FATAL, no hay precios en ciertos productos.
+[31merror[39m: 2:59:18 PM - ERROR, no hay stock en ciertos productos.
+[33mwarning[39m: 2:59:18 PM - WARNING, no hay imagenes en ciertos productos.
+[34minfo[39m: 2:59:18 PM - INFO, algunos avisos.
+[34minfo[39m: GET en /loggerTest - 2:59:37 PM
+[31mfatal[39m: 2:59:37 PM - ERROR FATAL, no hay precios en ciertos productos.
+[31merror[39m: 2:59:37 PM - ERROR, no hay stock en ciertos productos.
+[33mwarning[39m: 2:59:37 PM - WARNING, no hay imagenes en ciertos productos.
+[34minfo[39m: 2:59:37 PM - INFO, algunos avisos.
+[34minfo[39m: GET en /loggerTest - 3:00:34 PM
+[31mfatal[39m: 3:00:34 PM - ERROR FATAL, no hay precios en ciertos productos.
+[31merror[39m: 3:00:34 PM - ERROR, no hay stock en ciertos productos.
+[33mwarning[39m: 3:00:34 PM - WARNING, no hay imagenes en ciertos productos.
+[34minfo[39m: 3:00:34 PM - INFO, algunos avisos.
+[34minfo[39m: GET en /logger - 3:01:19 PM
+[34minfo[39m: GET en /logger - 3:01:19 PM
+[34minfo[39m: GET en /login - 19:44:01
+[34minfo[39m: GET en /favicon.ico - 19:44:02
+[34minfo[39m: POST en /api/session/login - 19:44:12
+[34minfo[39m: GET en /products - 19:44:12
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 19:44:12
+[34minfo[39m: GET en /products?page=2 - 19:44:20
+[34minfo[39m: GET en /api/products?&limit=10&page=2 - 19:44:20
+[34minfo[39m: GET en /products?category=aislacion - 19:44:22
+[34minfo[39m: GET en /api/products?&category=aislacion&limit=10&page=1 - 19:44:22
+[34minfo[39m: GET en /products?category=cobre - 19:44:27
+[34minfo[39m: GET en /api/products?&category=cobre&limit=10&page=1 - 19:44:27
+[34minfo[39m: GET en /products?category=aireacondicionado - 19:44:29
+[34minfo[39m: GET en /api/products?&category=aireacondicionado&limit=10&page=1 - 19:44:29
+[34minfo[39m: GET en /products? - 19:44:31
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 19:44:31
+[34minfo[39m: GET en /products?page=2 - 19:44:33
+[34minfo[39m: GET en /api/products?&limit=10&page=2 - 19:44:33
+[34minfo[39m: GET en /products?page=3 - 19:44:35
+[34minfo[39m: GET en /api/products?&limit=10&page=3 - 19:44:35
+[34minfo[39m: GET en /products?page=4 - 19:44:37
+[34minfo[39m: GET en /api/products?&limit=10&page=4 - 19:44:37
+[34minfo[39m: GET en /products?page=5 - 19:44:41
+[34minfo[39m: GET en /api/products?&limit=10&page=5 - 19:44:41
+[34minfo[39m: GET en /api/session/logout - 19:44:47
+[34minfo[39m: GET en / - 19:44:47
+[34minfo[39m: GET en /products - 19:44:47
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 19:44:47
+[34minfo[39m: GET en /api/session/logout - 19:44:50
+[34minfo[39m: GET en / - 19:44:50
+[34minfo[39m: GET en /login - 19:44:50
+[34minfo[39m: GET en / - 6:46:05 PM
+[34minfo[39m: GET en /login - 6:46:05 PM
+[34minfo[39m: GET en /favicon.ico - 6:46:06 PM
+[34minfo[39m: GET en /register - 6:46:09 PM
+[34minfo[39m: GET en /login - 6:46:16 PM
+[34minfo[39m: GET en /recover - 6:46:17 PM
+[34minfo[39m: GET en /recover - 6:47:20 PM
+[34minfo[39m: GET en /register - 6:47:33 PM
+[34minfo[39m: GET en /recover - 6:59:46 PM
+[34minfo[39m: GET en /recover - 7:21:50 PM
+[34minfo[39m: GET en /recover - 7:21:58 PM
+[34minfo[39m: GET en /recover-password - 7:22:03 PM
+[34minfo[39m: GET en /register - 7:22:12 PM
+[34minfo[39m: GET en /login - 7:22:32 PM
+[34minfo[39m: GET en /recover - 7:24:26 PM
+[34minfo[39m: GET en /login - 7:24:29 PM
+[34minfo[39m: GET en /recover-password - 7:24:31 PM
+[34minfo[39m: GET en /register - 7:39:54 PM
+[34minfo[39m: GET en /login - 7:39:55 PM
+[34minfo[39m: GET en /recover-password - 7:39:56 PM
+[34minfo[39m: GET en /login - 7:40:03 PM
+[34minfo[39m: GET en /recover-password - 7:40:05 PM
+[34minfo[39m: POST en /recover-password - 7:57:17 PM
+[34minfo[39m: GET en /login - 8:25:25 PM
+[34minfo[39m: GET en /register - 8:25:28 PM
+[34minfo[39m: GET en /login - 8:25:29 PM
+[34minfo[39m: GET en /recover-password - 8:25:30 PM
+[34minfo[39m: GET en /recover-password - 8:25:51 PM
+[34minfo[39m: GET en /recover-password - 8:25:57 PM
+[34minfo[39m: GET en /recover-password - 8:26:34 PM
+[34minfo[39m: GET en /recover-password - 8:26:37 PM
+[34minfo[39m: GET en /recover-password - 8:26:59 PM
+[34minfo[39m: GET en /register - 8:27:02 PM
+[34minfo[39m: GET en /login - 8:27:04 PM
+[34minfo[39m: GET en /recover - 8:27:05 PM
+[34minfo[39m: GET en /recover - 8:27:36 PM
+[34minfo[39m: GET en /login - 8:27:38 PM
+[34minfo[39m: GET en /recover - 8:27:40 PM
+[34minfo[39m: POST en /api/session/recover - 8:27:48 PM
+[34minfo[39m: GET en /api/session/css/styles.css - 8:27:48 PM
+[34minfo[39m: GET en /api/session/css/styles.css - 12:48:25 PM
+[34minfo[39m: GET en /login - 12:48:28 PM
+[34minfo[39m: GET en /recover - 12:48:30 PM
+[34minfo[39m: POST en /api/session/recover - 12:48:40 PM
+[34minfo[39m: GET en /api/session/css/styles.css - 12:48:40 PM
+[34minfo[39m: GET en /user - 12:57:29 PM
+[34minfo[39m: GET en /user - 12:58:01 PM
+[34minfo[39m: GET en /user - 1:18:29 PM
+[34minfo[39m: GET en /user - 1:19:26 PM
+[34minfo[39m: GET en /user - 1:20:58 PM
+[34minfo[39m: GET en /login - 1:23:44 PM
+[34minfo[39m: GET en /recover - 1:23:45 PM
+[34minfo[39m: POST en /api/session/recover - 1:23:53 PM
+[34minfo[39m: GET en /api/session/css/styles.css - 1:23:53 PM
+[34minfo[39m: GET en /user - 1:32:26 PM
+[34minfo[39m: GET en /user/email - 1:34:28 PM
+[34minfo[39m: GET en /user/email - 1:35:33 PM
+[34minfo[39m: GET en /api/session/css/styles.css - 5:47:18 PM
+[34minfo[39m: GET en /favicon.ico - 5:47:18 PM
+[34minfo[39m: GET en /login - 5:47:20 PM
+[34minfo[39m: GET en /password/recover - 5:47:23 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:47:23 PM
+[34minfo[39m: POST en /password/api/session/recover - 5:47:40 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:51:33 PM
+[34minfo[39m: POST en /password/api/session/recover - 5:51:35 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:51:38 PM
+[34minfo[39m: GET en /login - 5:51:39 PM
+[34minfo[39m: GET en /password/recover - 5:51:41 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:51:41 PM
+[34minfo[39m: POST en /password/api/session/recover - 5:51:49 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:52:16 PM
+[34minfo[39m: GET en /login - 5:52:17 PM
+[34minfo[39m: GET en /password/recover - 5:52:19 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:52:19 PM
+[34minfo[39m: POST en /recover - 5:52:27 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:52:37 PM
+[34minfo[39m: POST en /recover - 5:52:38 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:52:39 PM
+[34minfo[39m: GET en /login - 5:52:40 PM
+[34minfo[39m: GET en /password/recover - 5:52:41 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:52:41 PM
+[34minfo[39m: POST en /password/password/recover - 5:52:50 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:53:02 PM
+[34minfo[39m: GET en /login - 5:53:03 PM
+[34minfo[39m: GET en /password/recover - 5:53:04 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:53:04 PM
+[34minfo[39m: POST en /recover - 5:53:07 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:03:00 PM
+[34minfo[39m: GET en /login - 6:03:03 PM
+[34minfo[39m: GET en /password/recover - 6:03:04 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:03:04 PM
+[34minfo[39m: POST en /recover - 6:03:08 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:03:47 PM
+[34minfo[39m: GET en /login - 6:03:50 PM
+[34minfo[39m: GET en /password/recover - 6:03:51 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:03:51 PM
+[34minfo[39m: POST en /password/password/recover - 6:03:55 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:04:34 PM
+[34minfo[39m: GET en /login - 6:04:35 PM
+[34minfo[39m: GET en /password/recover - 6:04:36 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:04:36 PM
+[34minfo[39m: POST en /recover - 6:05:13 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:05:59 PM
+[34minfo[39m: GET en /login - 6:06:01 PM
+[34minfo[39m: GET en /password/recover - 6:06:03 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:06:03 PM
+[34minfo[39m: POST en /recover - 6:06:09 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:06:38 PM
+[34minfo[39m: GET en /login - 6:06:39 PM
+[34minfo[39m: GET en /password/recover - 6:06:41 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:06:41 PM
+[34minfo[39m: POST en /password/password/recover - 6:06:44 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:08:45 PM
+[34minfo[39m: GET en /login - 6:08:46 PM
+[34minfo[39m: GET en /password/recover - 6:08:48 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:08:48 PM
+[34minfo[39m: POST en /password/api/users/password/recover - 6:09:02 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:12:00 PM
+[34minfo[39m: GET en /login - 6:12:01 PM
+[34minfo[39m: GET en /password/recover - 6:12:02 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:12:02 PM
+[34minfo[39m: POST en /recover - 6:12:06 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:12:33 PM
+[34minfo[39m: GET en /login - 6:12:34 PM
+[34minfo[39m: GET en /password/recover - 6:12:35 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:12:35 PM
+[34minfo[39m: POST en /password/password/recover - 6:12:38 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:13:14 PM
+[34minfo[39m: GET en /login - 6:13:16 PM
+[34minfo[39m: GET en /password/recover - 6:13:17 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:13:17 PM
+[34minfo[39m: POST en /password/password/recover - 6:13:20 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:13:34 PM
+[34minfo[39m: GET en /login - 6:13:35 PM
+[34minfo[39m: GET en /password/recover - 6:13:37 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:13:37 PM
+[34minfo[39m: POST en /recover - 6:13:39 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:13:57 PM
+[34minfo[39m: GET en /login - 6:13:58 PM
+[34minfo[39m: GET en /password/recover - 6:14:00 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:14:00 PM
+[34minfo[39m: POST en /password/password/recover - 6:14:03 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:15:51 PM
+[34minfo[39m: POST en /password/password/recover - 6:15:54 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:16:15 PM
+[34minfo[39m: GET en /login - 6:16:16 PM
+[34minfo[39m: GET en /password/recover - 6:16:17 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:16:17 PM
+[34minfo[39m: POST en /recover - 6:16:20 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:16:31 PM
+[34minfo[39m: GET en /login - 6:16:32 PM
+[34minfo[39m: GET en /password/recover - 6:16:33 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:16:33 PM
+[34minfo[39m: POST en /recover - 6:16:35 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:17:11 PM
+[34minfo[39m: GET en /login - 6:17:12 PM
+[34minfo[39m: GET en /password/recover - 6:17:14 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:17:14 PM
+[34minfo[39m: POST en /password/password/recover - 6:17:20 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:17:44 PM
+[34minfo[39m: GET en /login - 6:17:45 PM
+[34minfo[39m: GET en /password/recover - 6:17:47 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:17:47 PM
+[34minfo[39m: POST en /password/recover - 6:17:51 PM
+[34minfo[39m: GET en /password/recover - 6:18:46 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:18:46 PM
+[34minfo[39m: GET en /login - 6:18:48 PM
+[34minfo[39m: GET en /password/recover - 6:18:49 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:18:49 PM
+[34minfo[39m: POST en /password/recover - 6:19:05 PM
+[34minfo[39m: GET en /password/recover - 6:19:51 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:19:52 PM
+[34minfo[39m: GET en /login - 6:19:53 PM
+[34minfo[39m: GET en /password/recover - 6:19:55 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:19:55 PM
+[34minfo[39m: POST en /password/recover - 6:19:57 PM
+[34minfo[39m: GET en /password/recover - 6:38:09 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:38:09 PM
+[34minfo[39m: POST en /password/recover - 6:38:23 PM
+[34minfo[39m: GET en /password/recover - 6:44:34 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:44:35 PM
+[34minfo[39m: POST en /password/recover - 6:44:44 PM
+[34minfo[39m: GET en /login - 6:49:31 PM
+[34minfo[39m: GET en /password/recover - 6:49:32 PM
+[34minfo[39m: GET en /password/css/styles.css - 6:49:32 PM
+[34minfo[39m: POST en /password/recover - 6:49:45 PM
+[34minfo[39m: GET en /password/recover - 7:02:44 PM
+[34minfo[39m: GET en /password/css/styles.css - 7:02:44 PM
+[34minfo[39m: GET en /login - 7:02:45 PM
+[34minfo[39m: GET en /password/recover - 7:02:47 PM
+[34minfo[39m: GET en /password/css/styles.css - 7:02:47 PM
+[34minfo[39m: POST en /password/recover - 7:02:52 PM
+[34minfo[39m: GET en /password/recover - 2:25:29 PM
+[34minfo[39m: GET en / - 2:25:33 PM
+[34minfo[39m: GET en /login - 2:25:33 PM
+[34minfo[39m: GET en /password-recover - 2:25:42 PM
+[34minfo[39m: GET en /password-recover - 2:30:13 PM
+[34minfo[39m: GET en /password-recover - 2:31:16 PM
+[34minfo[39m: GET en /password-recover - 2:31:19 PM
+[34minfo[39m: GET en /register - 2:31:25 PM
+[34minfo[39m: GET en /login - 2:31:27 PM
+[34minfo[39m: GET en /password/forgot - 2:31:29 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:31:29 PM
+[34minfo[39m: GET en / - 2:32:17 PM
+[34minfo[39m: GET en /login - 2:32:17 PM
+[34minfo[39m: GET en /password/forgot - 2:32:19 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:32:19 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 2:32:38 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:32:38 PM
+[34minfo[39m: GET en / - 2:36:02 PM
+[34minfo[39m: GET en /login - 2:36:03 PM
+[34minfo[39m: GET en /password/forgot - 2:36:05 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:36:05 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 2:36:10 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:36:10 PM
+[34minfo[39m: GET en / - 2:38:26 PM
+[34minfo[39m: GET en /login - 2:38:27 PM
+[34minfo[39m: GET en /login - 2:38:30 PM
+[34minfo[39m: GET en /password/forgot - 2:38:31 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:38:31 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 2:38:41 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:38:41 PM
+[34minfo[39m: GET en / - 2:41:03 PM
+[34minfo[39m: GET en /login - 2:41:03 PM
+[34minfo[39m: GET en /password/forgot - 2:41:06 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:41:06 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 2:41:10 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:41:10 PM
+[34minfo[39m: GET en / - 2:46:50 PM
+[34minfo[39m: GET en /login - 2:46:50 PM
+[34minfo[39m: GET en /password/forgot - 2:46:52 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:46:52 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 2:46:58 PM
+[34minfo[39m: GET en /password/css/styles.css - 2:46:58 PM
+[34minfo[39m: GET en /api/user/email - 3:54:18 PM
+[34minfo[39m: GET en /api/users/email - 3:54:25 PM
+[34minfo[39m: GET en /user - 3:54:34 PM
+[34minfo[39m: GET en /api/user - 3:54:42 PM
+[34minfo[39m: GET en /api/user/email - 3:55:02 PM
+[34minfo[39m: GET en /api/user?email=martin086%40gmail.com - 3:56:25 PM
+[34minfo[39m: GET en /api/user?email=martin086@gmail.com - 3:56:39 PM
+[34minfo[39m: GET en / - 4:01:27 PM
+[34minfo[39m: GET en /login - 4:01:27 PM
+[34minfo[39m: POST en /api/session/login - 4:01:44 PM
+[34minfo[39m: GET en /products - 4:01:44 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 4:01:44 PM
+[34minfo[39m: GET en /api/session/logout - 4:01:50 PM
+[34minfo[39m: GET en / - 4:01:50 PM
+[34minfo[39m: GET en /login - 4:01:50 PM
+[34minfo[39m: GET en /password/forgot - 4:01:56 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:01:57 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:02:02 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:02:02 PM
+[34minfo[39m: GET en / - 4:17:54 PM
+[34minfo[39m: GET en /login - 4:17:54 PM
+[34minfo[39m: GET en /password/forgot - 4:17:56 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:17:56 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:18:23 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:18:23 PM
+[34minfo[39m: GET en / - 4:29:33 PM
+[34minfo[39m: GET en /login - 4:29:33 PM
+[34minfo[39m: GET en /login - 4:29:35 PM
+[34minfo[39m: GET en / - 4:29:38 PM
+[34minfo[39m: GET en /login - 4:29:38 PM
+[34minfo[39m: GET en /password/forgot - 4:29:44 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:29:44 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:30:07 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:30:07 PM
+[34minfo[39m: GET en / - 4:30:44 PM
+[34minfo[39m: GET en /login - 4:30:44 PM
+[34minfo[39m: GET en /password/forgot - 4:30:46 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:30:46 PM
+[34minfo[39m: GET en / - 4:46:47 PM
+[34minfo[39m: GET en /login - 4:46:48 PM
+[34minfo[39m: GET en /password/forgot - 4:46:51 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:46:51 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:47:03 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:47:03 PM
+[34minfo[39m: GET en / - 4:52:46 PM
+[34minfo[39m: GET en /login - 4:52:46 PM
+[34minfo[39m: GET en /password/forgot - 4:52:49 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:52:49 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:52:52 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:52:52 PM
+[34minfo[39m: GET en / - 4:59:48 PM
+[34minfo[39m: GET en /login - 4:59:49 PM
+[34minfo[39m: GET en /password/forgot - 4:59:50 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:59:50 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 4:59:53 PM
+[34minfo[39m: GET en /password/css/styles.css - 4:59:53 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 5:04:42 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:04:42 PM
+[34minfo[39m: GET en / - 5:06:16 PM
+[34minfo[39m: GET en /login - 5:06:16 PM
+[34minfo[39m: GET en /login - 5:07:06 PM
+[34minfo[39m: GET en /password/forgot - 5:07:24 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:07:24 PM
+[34minfo[39m: GET en / - 5:07:58 PM
+[34minfo[39m: GET en /login - 5:07:58 PM
+[34minfo[39m: GET en /password/forgot - 5:08:00 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:08:00 PM
+[34minfo[39m: GET en /password/forgot?email=martin086%40gmail.com - 5:08:04 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:08:04 PM
+[34minfo[39m: GET en / - 5:13:25 PM
+[34minfo[39m: GET en /login - 5:13:25 PM
+[34minfo[39m: GET en /password/forgot - 5:13:27 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:13:27 PM
+[34minfo[39m: POST en /password/api/session/password/createlink - 5:13:32 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:15:31 PM
+[34minfo[39m: GET en / - 5:15:32 PM
+[34minfo[39m: GET en /login - 5:15:32 PM
+[34minfo[39m: GET en /password/forgot - 5:15:34 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:15:34 PM
+[34minfo[39m: POST en /password/password/createlink - 5:15:37 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:15:48 PM
+[34minfo[39m: GET en / - 5:15:49 PM
+[34minfo[39m: GET en /login - 5:15:49 PM
+[34minfo[39m: GET en /password/forgot - 5:15:51 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:15:51 PM
+[34minfo[39m: POST en /password/createlink - 5:15:53 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:26:20 PM
+[34minfo[39m: GET en / - 5:26:29 PM
+[34minfo[39m: GET en /login - 5:26:29 PM
+[34minfo[39m: GET en /password/forgot - 5:26:31 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:26:31 PM
+[34minfo[39m: POST en /password/createlink - 5:26:35 PM
+[34minfo[39m: GET en /password/css/styles.css - 5:26:44 PM
+[34minfo[39m: POST en /api/session/password/createlink?email=martin086@gmail.com - 5:30:04 PM
+[31merror[39m: Error in password reset procedure - secretOrPrivateKey must have a value
+[34minfo[39m: POST en /api/session/password/createlink - 5:31:01 PM
+[31merror[39m: Error in password reset procedure - secretOrPrivateKey must have a value
+[34minfo[39m: POST en /api/session/password/createlink - 5:34:12 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODM2NTIsImV4cCI6MTY4NjA4NzI1Mn0.Lh8_iFB4xneI3gL729njIe-FfU5m3iLCjs3OpjivI00
+[31merror[39m: Error in password reset procedure - No recipients defined
+[34minfo[39m: POST en /api/session/password/createlink - 5:35:55 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODM3NTUsImV4cCI6MTY4NjA4NzM1NX0.ZcU4SHsAcqSKRCZOrEeKJf5Au_5YWrQgm_ZNXYRr8gQ
+[31merror[39m: Error in password reset procedure - token is not defined
+[34minfo[39m: POST en /api/session/password/createlink - 5:39:09 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODM5NDksImV4cCI6MTY4NjA4NzU0OX0.LZ_C9ssqZJ-tsrjt7PkvOZnRmVKg5hZCV-2b38VmAcc
+[31merror[39m: Error in password reset procedure - No recipients defined
+[34minfo[39m: POST en /api/session/password/createlink - 5:40:23 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M
+[34minfo[39m: Password reset link sent to martin086@gmail.com
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 5:41:34 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 5:41:35 PM
+[34minfo[39m: POST en /reset/token - 5:41:48 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 5:42:02 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 5:55:46 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 5:56:13 PM
+[34minfo[39m: PUT en /api/session/password/reset - 5:56:25 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:00:12 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:16:58 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:19:31 PM
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:22:31 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 6:22:31 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:23:49 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:35:16 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:41:34 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:42:20 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:42:29 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:42:43 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:43:53 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:46:40 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:51:01 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:52:02 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:52:26 PM
+[34minfo[39m: PUT en /api/session/password/reset/ - 6:52:33 PM
+[34minfo[39m: PUT en /api/session/password/reset/ - 6:52:50 PM
+[34minfo[39m: PUT en /api/session/password/reset/ - 6:53:31 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:54:16 PM
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODQwMjMsImV4cCI6MTY4NjA4NzYyM30.w7d-fJabprxBP7Q8i0yBrrdSgLThymif6i8pkV9xu5M - 6:54:38 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 6:54:38 PM
+[34minfo[39m: PUT en /api/session/password/reset - 6:57:32 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:01:32 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:03:21 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 7:03:45 PM
+[34minfo[39m: GET en /login - 7:03:48 PM
+[34minfo[39m: GET en /password/forgot - 7:03:51 PM
+[34minfo[39m: GET en /password/css/styles.css - 7:03:51 PM
+[34minfo[39m: POST en /password/createlink - 7:03:58 PM
+[34minfo[39m: POST en /api/session/password/createlink - 7:04:13 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODkwNTMsImV4cCI6MTY4NjA5MjY1M30.Hk7rTEzRvOD4yPNDTW5f5fhNift2lP-J7m_oWg1ReHY
+[31merror[39m: Error in password reset procedure - first_name is not defined
+[34minfo[39m: POST en /api/session/password/createlink - 7:04:43 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODkwODMsImV4cCI6MTY4NjA5MjY4M30.FuGDdjGz1H5juPPOjElOC1p1nZKhlu8g0G2XypNmvIE
+[34minfo[39m: Password reset link sent to martin086@gmail.com
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODkwODMsImV4cCI6MTY4NjA5MjY4M30.FuGDdjGz1H5juPPOjElOC1p1nZKhlu8g0G2XypNmvIE - 7:05:00 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 7:05:00 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:05:39 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODkwODMsImV4cCI6MTY4NjA5MjY4M30.FuGDdjGz1H5juPPOjElOC1p1nZKhlu8g0G2XypNmvIE - 7:06:41 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:06:52 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:07:13 PM
+[34minfo[39m: PUT en /api/session/password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwODkwODMsImV4cCI6MTY4NjA5MjY4M30.FuGDdjGz1H5juPPOjElOC1p1nZKhlu8g0G2XypNmvIE - 7:07:21 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:07:40 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:10:02 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:10:17 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:11:28 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:11:44 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:12:26 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:17:55 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:18:33 PM
+[34minfo[39m: POST en /api/session/password/createlink - 7:35:14 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwOTA5MTQsImV4cCI6MTY4NjA5NDUxNH0.ZP7HI9_4WYO_aVlRMyKdJPXyDzhVKomPVrO6idcmggA
+[34minfo[39m: Password reset link sent to martin086@gmail.com
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODYwOTA5MTQsImV4cCI6MTY4NjA5NDUxNH0.ZP7HI9_4WYO_aVlRMyKdJPXyDzhVKomPVrO6idcmggA - 7:35:28 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 7:35:28 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:38:14 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:47:45 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:48:24 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:48:48 PM
+[34minfo[39m: PUT en /api/session/password/reset - 7:51:04 PM
+[34minfo[39m: POST en /api/session/password/createlink - 7:54:01 PM
+[34minfo[39m: Generated password reset cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQzNmY1OGI0N2ViMTc0M2M1YmE4ODY0IiwiaWF0IjoxNjg2MDkyMDQyLCJleHAiOjE2ODYwOTU2NDJ9.CX4sYovI6qt3FVmE_GHpljtFPTlCkLIjHxX_bX72dNQ
+[34minfo[39m: Password reset link sent to martin086@gmail.com
+[34minfo[39m: PUT en /api/session/password/reset - 7:54:44 PM
+[34minfo[39m: GET en /login - 7:56:55 PM
+[34minfo[39m: POST en /api/session/login - 7:57:07 PM
+[34minfo[39m: GET en /products - 7:57:08 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 7:57:08 PM
+[34minfo[39m: GET en /api/session/logout - 7:57:14 PM
+[34minfo[39m: GET en / - 7:57:14 PM
+[34minfo[39m: GET en /products - 7:57:14 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 7:57:14 PM
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQzNmY1OGI0N2ViMTc0M2M1YmE4ODY0IiwiaWF0IjoxNjg2MDkyMDQyLCJleHAiOjE2ODYwOTU2NDJ9.CX4sYovI6qt3FVmE_GHpljtFPTlCkLIjHxX_bX72dNQ - 8:04:03 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 8:04:04 PM
+[34minfo[39m: POST en /reset/token - 8:04:22 PM
+[34minfo[39m: GET en /api/session/logout - 8:04:33 PM
+[34minfo[39m: GET en / - 8:04:40 PM
+[34minfo[39m: GET en /login - 8:04:41 PM
+[34minfo[39m: POST en /api/session/login - 8:04:51 PM
+[34minfo[39m: POST en /api/session/login - 8:04:56 PM
+[34minfo[39m: GET en /products - 8:04:57 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 8:04:57 PM
+[34minfo[39m: GET en /api/session/logout - 8:05:37 PM
+[34minfo[39m: GET en / - 8:05:37 PM
+[34minfo[39m: GET en /login - 8:05:37 PM
+[34minfo[39m: GET en /password/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQzNmY1OGI0N2ViMTc0M2M1YmE4ODY0IiwiaWF0IjoxNjg2MDkyMDQyLCJleHAiOjE2ODYwOTU2NDJ9.CX4sYovI6qt3FVmE_GHpljtFPTlCkLIjHxX_bX72dNQ - 8:05:41 PM
+[34minfo[39m: GET en /password/reset/css/styles.css - 8:05:41 PM
+[34minfo[39m: GET en /api/products - 6:24:55 PM
+[34minfo[39m: GET en /favicon.ico - 6:24:55 PM
+[34minfo[39m: GET en / - 6:32:42 PM
+[34minfo[39m: GET en /login - 6:32:42 PM
+[34minfo[39m: GET en / - 6:33:05 PM
+[34minfo[39m: GET en /login - 6:33:05 PM
+[34minfo[39m: GET en / - 6:43:36 PM
+[34minfo[39m: GET en /login - 6:43:36 PM
+[34minfo[39m: GET en / - 7:10:24 PM
+[34minfo[39m: GET en /login - 7:10:24 PM
+[34minfo[39m: POST en /api/session/login - 7:10:35 PM
+[34minfo[39m: POST en /api/session/login - 7:10:40 PM
+[34minfo[39m: GET en /products - 7:10:41 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 7:10:41 PM
+[34minfo[39m: GET en /products?page=2 - 7:10:54 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=2 - 7:10:54 PM
+[34minfo[39m: POST en /api/carts/6436f58b47eb1743c5ba8861/products/64161c9e14b853ddd7d54551 - 7:12:16 PM
+[34minfo[39m: POST en /api/session/login - 7:12:51 PM
+[34minfo[39m: POST en /api/carts/6436f58b47eb1743c5ba8861/products/64161c9e14b853ddd7d54551 - 7:12:57 PM
+[34minfo[39m: POST en /api/carts/6436f58b47eb1743c5ba8861/products/641611240f61fb679b68d007 - 7:13:59 PM
+[34minfo[39m: GET en /api/session/logout - 7:21:44 PM
+[34minfo[39m: GET en / - 8:56:19 PM
+[34minfo[39m: GET en /login - 8:56:19 PM
+[34minfo[39m: GET en /authSession/githubSession - 8:56:29 PM
+[34minfo[39m: GET en /authSession/githubSession?code=190809dbc80b0e566a3a - 8:56:30 PM
+[34minfo[39m: GET en /products - 8:56:31 PM
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 8:56:31 PM
+[34minfo[39m: GET en /api/session/logout - 8:56:34 PM
+[34minfo[39m: GET en / - 8:56:34 PM
+[34minfo[39m: GET en /login - 8:56:34 PM
+[34minfo[39m: GET en /login - 11:16:09 AM
+[34minfo[39m: GET en / - 7:15:38 PM
+[34minfo[39m: GET en /login - 7:15:38 PM
+[34minfo[39m: GET en /favicon.ico - 7:15:39 PM
+[34minfo[39m: GET en /login - 7:15:49 PM
+[34minfo[39m: POST en /api/session/register - 21:48:55
+[34minfo[39m: POST en /api/session/login - 21:48:57
+[34minfo[39m: GET en /api/session/current - 21:48:58
+[34minfo[39m: POST en /api/session/register - 21:49:00
+[34minfo[39m: POST en /api/session/login - 21:49:01
+[34minfo[39m: GET en /api/session/current - 21:49:02
+[34minfo[39m: POST en /api/carts/undefined/products/641611240f61fb679b68d007 - 21:49:04
+[34minfo[39m: DELETE en /api/carts/undefined/products/641611240f61fb679b68d007 - 21:49:06
+[34minfo[39m: GET en /login - 20:02:57
+[34minfo[39m: GET en /favicon.ico - 20:02:58
+[34minfo[39m: POST en /api/session/login - 20:03:10
+[34minfo[39m: POST en /api/session/login - 20:03:15
+[34minfo[39m: POST en /api/session/login - 20:03:21
+[34minfo[39m: GET en /products - 20:03:21
+[34minfo[39m: GET en /api/products?&limit=10&page=1 - 20:03:21
+[34minfo[39m: GET en /products?page=2 - 20:03:29
+[34minfo[39m: GET en /api/products?&limit=10&page=2 - 20:03:29
+[34minfo[39m: GET en /api/session/logout - 20:03:31
+[34minfo[39m: GET en / - 20:03:31
+[34minfo[39m: GET en /login - 20:03:31
+[34minfo[39m: GET en /api/user?email=martin086@gmail.com - 20:13:29
+[34minfo[39m: GET en /api/user - 20:13:43
+[34minfo[39m: GET en /api/users - 20:13:54
+[34minfo[39m: GET en /api/user - 20:13:58
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:14:47
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:18:17
+[34minfo[39m: GET en /api/user - 20:18:52
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:18:58
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:21:27
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:23:13
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:23:30
+[34minfo[39m: GET en /api/user?email=martin086@gmail.com - 20:28:37
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:31:11
+[34minfo[39m: GET en /api/user?id=6436f58b47eb1743c5ba8864 - 20:31:43
+[34minfo[39m: GET en /api/user?_id=6436f58b47eb1743c5ba8864 - 20:31:57
+[34minfo[39m: GET en /api/user?_id=6436f58b47eb1743c5ba8864 - 20:32:41
+[34minfo[39m: GET en /api/user - 20:34:56
+[34minfo[39m: GET en /api/user?email=martin086@gmail.com - 20:35:38
+[34minfo[39m: GET en /api/user?email=martin086@gmail.com - 20:37:19
+[34minfo[39m: GET en /api/user/martin086@gmail.com - 20:37:33
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:39:02
+[34minfo[39m: GET en /api/user - 20:44:26
+[34minfo[39m: GET en /api/user/martin086@gmail.com - 20:44:34
+[34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:44:37

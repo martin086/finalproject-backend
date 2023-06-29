@@ -1,0 +1,143 @@
+paths:
+  /api/products/:
+    get:
+      summary: "Consulta todos los productos"
+      tags:
+        - Products
+      responses:
+        "200":
+          description: "Returns all the existing products with pagination. Query params = {limit, page, category, stock, sort} Eg.: \"?sort=ASC\" filters products by ascending price."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Product"
+        "500":
+          description: "Error del servidor al obtener los productos"
+    
+    post:
+      summary: "Adds products to the DB using body in JSON format."
+      tags:
+        - Products
+      responses:
+        "200":
+          description: "Agrega el listado de productos pasado por JSON usando el body."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Product"
+        "500":
+          description: "Error del servidor al obtener los productos"
+  
+  /api/products/{pid}:
+    get:  
+      summary: "Consultar un producto dado su id"
+      tags:
+        - Products
+      parameters:
+      - name: pid
+        in: path
+        required: true
+        description: "Id del producto solicitado."
+        schema: 
+          $type: String
+      responses:
+        "200":
+          description: "Producto encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Product"
+        "500":
+          description: "Error del servidor al obtener el/los productos"
+    
+    put:  
+      summary: "Modifies a product from the DB based on product_id"
+      tags:
+        - Products
+      parameters:
+      - name: pid
+        in: path
+        required: true
+        description: "Modificar alguna o todas las propiedades de un producto dado."
+        schema: 
+          $type: String
+      responses:
+        "200":
+          description: "Producto modificado"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Product"
+        "500":
+          description: "Error del servidor al actualizar el/los productos"
+
+    delete:  
+      summary: "Deletes a product from the DB based on product_id"
+      tags:
+        - Products
+      parameters:
+      - name: pid
+        in: path
+        required: true
+        description: "Eliminar un producto dado de la base de productos."
+        schema: 
+          $type: String
+      responses:
+        "200":
+          description: "Producto eliminado"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Product"
+        "500":
+          description: "Error del servidor al eliminar el/los productos"
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: "Id autogenerado"
+        title:
+          type: String
+          description: "Nombre del Producto"
+        description:
+          type: String
+          description: "Descripción del Producto"
+        code:
+          type: String
+          description: "Código del Producto"
+        price:
+          type: Number
+          description: "Precio del Producto"
+        status:
+          type: Boolean
+          description: "Status del Producto"
+        stock:
+          type: Number
+          description: "Stock disponible del Producto"
+        category:
+          type: String
+          description: "Categoría del Producto"
+        thumbnail:
+          type: Array
+          description: "Imagen del Producto"
+      example:
+        _id: ObjectId("12bb12bb12bb12bb12bb12bb")
+        title: "A/A 2250fr"
+        description: "Aire acondicionado split 2250fr F/C"
+        code: "#121"
+        price: 100000
+        status: true
+        category: "aireacondicionado"
+        thumbnail: ["../img/12-aireacondicionado.jpg"]
+
+
+
+

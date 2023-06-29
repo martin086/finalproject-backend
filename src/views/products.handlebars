@@ -1,0 +1,48 @@
+<h1 class="text-center">Lista de productos con paginación</h1>
+  
+  <div class="container-user-actions">
+    <p>Bienvenid@ <b>{{userFirst}}</b></p>
+    <p>Rol: <b>{{userRole}}</b></p>
+    <a href="/api/session/logout">Logout</a>
+  </div>
+
+  <div class="container-categories">
+    <span>Categorías: </span>
+    <a href="?category=aireacondicionado">A/A</a>
+    <a href="?category=cobre">Cobre</a>
+    <a href="?category=aislacion">Aislación</a>
+    <a href="?"> | Ver Todas</a>
+</div>
+
+  <div class="container">
+    <div class="row">
+      {{#each payload}}
+      <div class="card col-sm-2 cardProduct">
+        <img class="card-img-top imgCardProducts" src={{thumbnail}} alt="">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{title}}</h5>
+            <p class="card-text">{{description}}</p>
+            <p class="card-text">${{price}}</p>
+          </div>
+        </div>
+        <button class="btn btn-primary my-1" id="addToCartBtn">Comprar</button>
+      </div>
+      {{/each}}
+    </div>
+
+    <div class="row">
+      <div class="col">
+        {{#if hasPrevPage}}
+        <a href="?page={{prevPage}}" class="btn btn-primary">Previous Page</a>
+        {{/if}}
+      </div>
+      <div class="col text-right">
+        {{#if hasNextPage}}
+        <a href="?page={{nextPage}}" class="btn btn-primary">Next Page</a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+
+{{!-- <script src="/js/products.js"></script> --}}

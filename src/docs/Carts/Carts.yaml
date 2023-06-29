@@ -1,0 +1,168 @@
+paths:
+  /api/carts/{cid}:
+    get:  
+      summary: "Consultar un carrito dado su id"
+      tags:
+        - Carts
+      parameters:
+      - name: cid
+        in: path
+        required: true
+        description: "Id del carrito solicitado"
+        schema: 
+          $type: String
+      
+      responses:
+        "200":
+          description: "Carrito encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Cart"
+      
+    put:  
+      summary: "Replaces the whole content of cart products with the ones sent by body using product_id(s) in JSON format."
+      tags:
+        - Carts
+      parameters:
+      - name: cid
+        in: path
+        required: true
+        description: "Id del carrito a modificar"
+        schema: 
+          $type: String
+      
+      responses:
+        "200":
+          description: "Carrito modificado en su totalidad"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Cart"
+    
+    delete:
+      summary: "Empties the specified cart."
+      tags:
+        - Carts
+      parameters:
+      - name: cid
+        in: path
+        required: true
+        description: "Id del carrito a vaciar"
+        schema: 
+          $type: String
+      
+      responses:
+        "200":
+          description: "Carrito vaciado correctamente"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Cart"
+
+  /api/carts/{cid}/purchase:
+    post:  
+      summary: "Creates a purchase ticket, based on existing products in cart and updates the current products stock according to subtracted quantities. Uses cart_id"
+      tags:
+        - Carts
+      parameters:
+      - name: cid
+        in: path
+        required: true
+        description: "Id del carrito solicitado"
+        schema: 
+          $type: String
+      
+      responses:
+        "200":
+          description: "Carrito encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: "#components/schemas/Cart"
+
+  /api/carts/{cid}/products/{pid}:
+    post:
+      summary: "Adds a product based on product_id to a specific cart based on cart_id."
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: "Se ha agregado el producto al carrito especificado."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Cart"
+        "500":
+          description: "Error del servidor al añadir el producto al carrito"
+  
+    put:
+      summary: "Modifies the specified quantity of a product using body. Eg.: {\"quantity\": 2}."
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: "Se ha modificado la cantidad del producto existente en el carrito."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Cart"
+        "500":
+          description: "Error del servidor al modificar el carrito"  
+
+    delete:
+      summary: "Deletes a specified product completely from the specified cart."
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: "Se ha eliminado el producto del carrito especificado."
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#components/schemas/Cart"
+        "500":
+          description: "Error del servidor al eliminar del producto del carrito"  
+
+components:
+  schemas:
+    Cart:
+      type: object
+      properties:
+        _id:
+          type: ObjectId
+          description: "Id autogenerado"
+        products:
+          type: Array
+          properties:
+            productId: 
+              type: ObjectId
+              $ref: "#components/schemas/Product"
+              description: "Producto individual"
+            quantity:
+              type: Number
+              description: "Cantidad del producto individual"
+            _id:
+              type: ObjectId
+              description: "Id autogenerado"
+          description: "Array de productos que contiene el Carrito"
+        createdAt:
+          type: Date
+          description: "Fecha de creación del Carrito"
+      
+      example:
+        _id: [ObjectId("6436f58b47eb1743c5ba8861")]
+        products:
+          productId: [ObjectId("64161c9e14b853ddd7d54551")]
+          quantity: 1
+          _id: [ObjectId("648252698a36c66a3764d839")]
+        createdAt: 2023-06-07T22:16:32.444+00:00
+
+
+
