@@ -1,12 +1,11 @@
 import { Router } from 'express';
-import { getUsers, createNewUser, getUserById, uploadDocs, deleteUserById } from '../controllers/user.controller.js'
+import { getUsers, createNewUser, getUserById, uploadDocs, getUserByEmail } from '../controllers/user.controller.js'
 import { uploader } from "../utils/multer.js";
 import { isSessionActive } from '../config/middlewares.js';
 
 const routerUser = Router()
 
 routerUser.get("/", getUsers)
-routerUser.delete("/:uid", deleteUserById)
 routerUser.post("/:uid/documents", isSessionActive, uploader.single('file'), uploadDocs)
 //routerUser.post("/register", passport.authenticate('register'), createNewUser)
 

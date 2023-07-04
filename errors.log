@@ -586,3 +586,40 @@
 [34minfo[39m: GET en /api/user - 20:44:26
 [34minfo[39m: GET en /api/user/martin086@gmail.com - 20:44:34
 [34minfo[39m: GET en /api/user/6436f58b47eb1743c5ba8864 - 20:44:37
+[34minfo[39m: GET en /api/session/logout - 8:25:43 PM
+[34minfo[39m: GET en /products - 8:25:46 PM
+[34minfo[39m: GET en / - 8:25:48 PM
+[34minfo[39m: GET en /login - 8:25:49 PM
+[34minfo[39m: POST en /api/session/login - 8:25:58 PM
+[34minfo[39m: POST en /api/user/64a4960cd8c6bccc2783f36a/documents - 8:26:03 PM
+[34minfo[39m: 
+        <UPLOAD>
+        user email: martin086@gmail.com 
+        user id:    64a4960cd8c6bccc2783f36a
+        file name:  perfil.jpg
+        file type:  image/jpeg
+        file size:  32734
+        file path:  C:\Users\Martin\My Drive\Code\Backend\finalproject-backend\src\public\documents\64a4960cd8c6bccc2783f36a_perfil.jpg
+        -------------------------EOF------------------------
+[34minfo[39m: GET en / - 8:41:04 PM
+[34minfo[39m: GET en /login - 8:41:04 PM
+[34minfo[39m: GET en /register - 8:41:06 PM
+[34minfo[39m: POST en /api/session/register - 8:41:28 PM
+[34minfo[39m: GET en /api/user - 8:45:18 PM
+[34minfo[39m: GET en /api/users - 8:45:21 PM
+[34minfo[39m: GET en /api/users/martin086@gmail.com - 8:45:30 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:46:05 PM
+[34minfo[39m: GET en /api/users - 8:46:19 PM
+[34minfo[39m: GET en /api/users/ - 8:46:40 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:46:51 PM
+[34minfo[39m: GET en /api/user/64a4960cd8c6bccc2783f36a - 8:46:57 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:47:02 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:48:25 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:48:56 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:49:46 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:50:25 PM
+[34minfo[39m: GET en /api/users/ - 8:50:55 PM
+[34minfo[39m: GET en /api/users/64a4960cd8c6bccc2783f36a - 8:52:46 PM
+[34minfo[39m: GET en /api/users - 8:53:16 PM
+[34minfo[39m: GET en /api/users/ - 8:53:22 PM
+[34minfo[39m: GET en /api/users - 8:56:17 PM
