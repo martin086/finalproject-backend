@@ -29,12 +29,12 @@ export const findUserByEmail = async (email) => {
 
 export const findUserByToken = async (token) => {
     try {
-      const user = await userModel.findOne({ resetPassToken: token });
-      return user;
+        const user = await userModel.findOne({ resetPassToken: token });
+        return user;
     } catch (error) {
-      throw new Error(error);
+        throw new Error(error);
     }
-  };
+};
 
 export const createUser = async (user) => {
     try {
@@ -54,9 +54,19 @@ export const deleteUser = async (id) => {
     }
 }
 
+export const deleteUserByEmail = async (email) => {
+    try {
+        return await userModel.findOneAndDelete({ email: email })
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+
 export const updateUser = async (id, info) => {
     try {
-        return await userModel.findByIdAndUpdate(id, info);
+        const user = await userModel.findByIdAndUpdate(id, info, {new: true});
+        await user.save()
+        return user
     } catch (error) {
         throw new Error(error);
     }

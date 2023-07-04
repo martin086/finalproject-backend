@@ -24,6 +24,7 @@ import swaggerUiExpress from 'swagger-ui-express'
 
 
 // const whiteList = ['http://localhost:3000'] //Rutas validas a mi servidor
+// finalproject-backend-production-8b9c.up.railway.app
 
 // const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor esta o no en esta lista
 //     origin: (origin, callback) => {
@@ -116,7 +117,8 @@ app.use(addLogger)
 //Routes
 app.use('/', router)
 
-//Storage
+//Storage Multer
+/*
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'src/public/img')
@@ -127,6 +129,7 @@ const storage = multer.diskStorage({
 })
 
 const upload = multer({ storage: storage })
+*/
 
 //Nodemailer
 export const transporter = nodemailer.createTransport({ //Genero la forma de enviar info desde mail (o sea, desde Gmail con x cuenta)
@@ -140,21 +143,6 @@ export const transporter = nodemailer.createTransport({ //Genero la forma de env
     }
 })
 
-// app.get('/email', async (req, res) => {
-//     //console.log(process.env.MAILER_PASS)
-//     await transporter.sendMail({
-//         from: 'Test Coder martinsuarezdev@gmail.com',
-//         to: "franciscopugh01@gmail.com",
-//         subject: "Saludos, nueva prueba",
-//         html: `
-//             <div>
-//                 <h2>Hola, esta es una nueva prueba desde la clase de Coder</h2>
-//             </div>
-//         `,
-//         attachments: []
-//     })
-//     res.send("Email enviado")
-// })
 
 // Error Handler
 app.use(errorHandler)
