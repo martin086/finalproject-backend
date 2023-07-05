@@ -4,14 +4,14 @@ import { checkSessionRole } from "../config/middlewares.js";
 
 const routerCart = Router()
 
-routerCart.get('/:cid', checkSessionRole("User"), getCart)
+routerCart.get('/', checkSessionRole("User"), getCart)
 //routerCart.post('/', createNewCart) Eliminamos la ruta porque ahora se crea con el usuario.
-routerCart.post('/:cid/products/:pid', checkSessionRole("User"), addProductToCart)
-routerCart.post('/:cid/purchase', checkSessionRole("User"), createNewPurchase)
-//routerCart.put('/:cid', updateAllCart)
-routerCart.put('/:cid/products/:pid', checkSessionRole("User"), updateProdQtyCart)
-routerCart.delete('/:cid/products/:pid', checkSessionRole("User"), removeProductCart)
-routerCart.delete('/:cid', checkSessionRole("User"), emptyCart)
+routerCart.post('/products/:pid', checkSessionRole("User"), addProductToCart)
+routerCart.post('/purchase', checkSessionRole("User"), createNewPurchase)
+routerCart.put('/', checkSessionRole("User"), updateAllCart)
+routerCart.put('/products/:pid', checkSessionRole("User"), updateProdQtyCart)
+routerCart.delete('/products/:pid', checkSessionRole("User"), removeProductCart)
+routerCart.delete('/', checkSessionRole("User"), emptyCart)
 
 
 export default routerCart;

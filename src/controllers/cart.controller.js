@@ -86,22 +86,29 @@ export const addProductToCart = async (req, res) => {
     
 //Add an array of products to the cart
 export const updateAllCart = async (req, res) => {
-    try {
-        const prodArray = req.body
-        const addedProducts = await cartManager.updateAllProducts(req.params.cid, prodArray)
+    if (req.session.login) {
+        const cartId = req.session.user.idCart
+        const addedProducts = req.body
+        console.log(`Carrito N°: ${cartId}`)
+        console.log(`Productos a agregar: ${JSON.stringify(addedProducts)}`)
+        
+        try {
+            const response = await updateCart(cartId, { products: addedProducts })
 
-        res.send({
-            status: "success",
-            payload: addedProducts
-        })
-
-    } catch (error) {
-        res.send({
-            status: "error",
-            payload: error
-        })
+            return res.status(200).send({
+                status: "success",
+                payload: response
+            })
+    
+        } catch (error) {
+            res.status(500).send({
+                status: "error",
+                payload: error.message
+            })
+        }
+    } else {
+        return res.status(401).send("No active session")
     }
-
 }
 //Update only the quantity of a single product.
 export const updateProdQtyCart = async (req, res) => {

@@ -91,17 +91,14 @@ export const loginUser = async (req, res, next) => {
 export const getSession = async (req, res) => {
     try {
         if (req.session.login) {
-            const sessionData = {
-                name: req.session.user.first_name,
-                role: req.session.user.role
-            }
-            return sessionData
+            res.status(200).json(req.session.user);
         } else {
-            res.redirect('/login', 500, { message: "Please Login" })
+            return res.status(404).send(`No active session found`)
         }
     } catch (error) {
-        res.status(500).json({
-            message: error.message
+        res.status(500).send({
+            message: "Internal Server error",
+            error: error.message
         })
     }
 }
