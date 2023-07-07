@@ -22,19 +22,19 @@ import swaggerJSDoc from 'swagger-jsdoc'
 import swaggerUiExpress from 'swagger-ui-express'
 
 
-
-// const whiteList = ['http://localhost:3000'] //Rutas validas a mi servidor
-// finalproject-backend-production-8b9c.up.railway.app
-
-// const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor esta o no en esta lista
-//     origin: (origin, callback) => {
-//         if (whiteList.indexOf(origin) !== -1) {
-//             callback(null, true)
-//         } else {
-//             callback(new Error('Not allowed by Cors'))
-//         }
-//     }
-// }
+// CORS config
+const whiteList = ['http://localhost:3000', 'http://localhost:8080']; //Rutas validas a mi servidor
+//finalproject-backend-production-8b9c.up.railway.app
+const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor esta o no en esta lista
+    origin: (origin, callback) => {
+        if (whiteList.indexOf(origin) !== -1 || !origin) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by Cors'));
+        }
+    },
+    credentials: true,
+}
 
 
 //Express Server
