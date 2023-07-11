@@ -22,6 +22,10 @@ import swaggerJSDoc from 'swagger-jsdoc'
 import swaggerUiExpress from 'swagger-ui-express'
 
 
+//Express Server
+const app = express()
+
+
 // CORS config
 const whiteList = ['http://localhost:3000', 'http://localhost:8080']; //Rutas validas a mi servidor
 //finalproject-backend-production-8b9c.up.railway.app
@@ -36,9 +40,7 @@ const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor 
     credentials: true,
 }
 
-
-//Express Server
-const app = express()
+app.use(cors(corsOptions));
 
 //Middlewares
 app.use(cookieParser(process.env.SIGNED_COOKIE))
