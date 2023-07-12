@@ -59,6 +59,12 @@ export const renderProducts = async (req, res) => {
     try {
         let { limit = 10, page = 1, category = undefined, stock = undefined, sort = undefined } = req.query;
 
+        // Getting session data
+        const userFirst = req.session.user.first_name
+        const userRole = req.session.user.role
+        console.log(userFirst)
+        console.log(userRole)
+
         // Links to prev and next pages
         const categoryLink = category ? `&category=${category}` : ""
         const stockLink = stock ? `&stock=${stock}` : ""
@@ -72,13 +78,7 @@ export const renderProducts = async (req, res) => {
         const { status, payload, totalPages, prevPage, nextPage, actualPage, hasPrevPage, hasNextPage, prevLink, nextLink } = data
 
         let statusBool = status === "success" ? true : false
-
-        // Getting session data
-
-        const sessionData = await getSession(req, res)
-        console.log({ sessionData })
-        const userFirst = sessionData.name
-        const userRole = sessionData.role
+        
 
         res.render('products', {
             statusBool,

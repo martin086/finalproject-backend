@@ -29,7 +29,7 @@ export const registerUser = async (req, res, next) => {
 
 export const loginUser = async (req, res, next) => {
     try {
-        passport.authenticate('login', (err, user) => {
+        passport.authenticate('login', async (err, user) => {
             if (err) {
                 return res.status(401).send({
                     message: "Ha ocurrido un error durante el login",
@@ -41,6 +41,10 @@ export const loginUser = async (req, res, next) => {
             }
             req.session.login = true;
             req.session.user = user;
+
+            // Register login date & time
+            req.session.user.role === 1 && await updateUser(req.session.user._id, { lastConnection: new Date() })
+
             return res.status(200).send(`Bienvenido ${req.session.user.first_name}, tu rol es ${req.session.user.role}`)
         })(req, res, next)
 
@@ -52,40 +56,6 @@ export const loginUser = async (req, res, next) => {
     }
 
 }
-
-
-// export const checkLogin = async (req, res) => {
-//     try {
-        
-//         const { email, password } = req.body
-
-//         if (email === "adminCoder@coder.com" && password === "adminCod3r123") {
-//             req.session.login = true
-//             req.session.userFirst = "Admin Backend"
-//             req.session.role = "admin"
-//             console.log(`${email} logged in as ${req.session.role}`)
-//             res.redirect('/products')
-//         } else {
-//             const user = await findUserByEmail(email)
-
-//             if (user && validatePassword(password, user.password)) {
-//                 req.session.login = true
-//                 req.session.userFirst = user.first_name
-//                 req.session.role = user.role
-//                 console.log(`${email} logged in as ${user.role}`)
-//                 res.redirect('/products')
-//             } else {
-//                 res.status(401).json({
-//                     message: "Please check your credentials."
-//                 })
-//             }
-//         }
-//     } catch (error) {
-//         res.status(500).json({
-//             message: error.message
-//         })
-//     }
-// }
 
 
 export const getSession = async (req, res) => {
