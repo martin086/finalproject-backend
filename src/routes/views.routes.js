@@ -5,7 +5,8 @@ import { checkSessionRole, isSessionActive } from "../config/middlewares.js";
 
 const routerViews = Router()
 
-routerViews.get('/', requireAuth, viewProducts)
+//routerViews.get('/', requireAuth, viewProducts)
+routerViews.get('/', viewLogin)
 routerViews.get('/login', viewLogin)
 routerViews.get('/register', viewRegister)
 routerViews.get('/products', isSessionActive, renderProducts)
