@@ -3,7 +3,9 @@ import { getSession } from "./session.controller.js"
 const PRODUCTS_URL = 'http://localhost:8080/api/products'
 const CARTS_URL = 'http://localhost:8080/api/carts'
 
-
+export const viewProducts = (req, res) => {
+    res.redirect('/products')
+}
 
 export const viewLogin = (req, res) => {
     if (req.session.user) {

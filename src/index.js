@@ -27,8 +27,8 @@ const app = express()
 
 
 // CORS config
-const whiteList = ['http://localhost:3000', 'http://localhost:8080']; //Rutas validas a mi servidor
-//finalproject-backend-production-8b9c.up.railway.app
+const whiteList = ['http://localhost:3000', 'http://localhost:8080', 'https://finalproject-frontend-zm7s.onrender.com/']; //Rutas validas a mi servidor
+
 const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor esta o no en esta lista
     origin: (origin, callback) => {
         if (whiteList.indexOf(origin) !== -1 || !origin) {
