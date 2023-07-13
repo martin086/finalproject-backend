@@ -1,11 +1,10 @@
 import { Router } from "express";
-import { requireAuth } from "../controllers/session.controller.js";
-import { renderProducts, viewCarts, viewLogin, viewProducts, viewRegister, viewChat, viewRecoverPassword, viewResetPassword } from "../controllers/view.controller.js";
+import { getSession, requireAuth } from "../controllers/session.controller.js";
+import { renderProducts, viewCarts, viewLogin, viewRegister, viewChat, viewRecoverPassword, viewResetPassword } from "../controllers/view.controller.js";
 import { checkSessionRole, isSessionActive } from "../config/middlewares.js";
 
 const routerViews = Router()
 
-//routerViews.get('/', requireAuth, viewProducts)
 routerViews.get('/', viewLogin)
 routerViews.get('/login', viewLogin)
 routerViews.get('/register', viewRegister)

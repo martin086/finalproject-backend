@@ -3,9 +3,7 @@ import { getSession } from "./session.controller.js"
 const PRODUCTS_URL = 'http://localhost:8080/api/products'
 const CARTS_URL = 'http://localhost:8080/api/carts'
 
-export const viewProducts = (req, res) => {
-    res.redirect('/products')
-}
+
 
 export const viewLogin = (req, res) => {
     if (req.session.user) {
@@ -60,14 +58,14 @@ export const viewCarts = async (req, res) => {
 }
 
 export const renderProducts = async (req, res) => {
+    // Getting session data
+    const userFirst = req.session.user.first_name
+    const userRole = req.session.user.role
+    console.log(userFirst)
+    console.log(userRole)
+    
     try {
         let { limit = 10, page = 1, category = undefined, stock = undefined, sort = undefined } = req.query;
-
-        // Getting session data
-        const userFirst = req.session.user.first_name
-        const userRole = req.session.user.role
-        console.log(userFirst)
-        console.log(userRole)
 
         // Links to prev and next pages
         const categoryLink = category ? `&category=${category}` : ""

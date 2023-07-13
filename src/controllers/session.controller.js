@@ -45,6 +45,8 @@ export const loginUser = async (req, res, next) => {
             // Register login date & time
             req.session.user.role === 1 && await updateUser(req.session.user._id, { lastConnection: new Date() })
 
+            req.logger.info(`User logged in < ${req.session.user.email} >`)
+
             return res.status(200).send(`Bienvenido ${req.session.user.first_name}, tu rol es ${req.session.user.role}`)
         })(req, res, next)
 
