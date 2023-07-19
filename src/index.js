@@ -27,14 +27,15 @@ const app = express()
 
 
 // CORS config
-const whiteList = ['http://localhost:3000', 
+const whiteList = [
+'http://localhost:3000', 
 'http://localhost:8080', 
 'https://finalproject-frontend-zm7s.onrender.com/',
-'https://finalproject-frontend-zm7s.onrender.com',
 'https://www.finalproject-frontend-zm7s.onrender.com/',
-'https://www.finalproject-frontend-zm7s.onrender.com',
-'http://finalproject-frontend-zm7s.onrender.com',
-'finalproject-frontend-zm7s.onrender.com',
+'http://finalproject-frontend-zm7s.onrender.com/',
+'http://www.finalproject-frontend-zm7s.onrender.com',
+'https://finalproject-frontend-zm7s.onrender.com',
+'finalproject-frontend-zm7s.onrender.com/',
 ]; //Rutas validas a mi servidor
 
 const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor esta o no en esta lista
@@ -46,6 +47,7 @@ const corsOptions = { //Reviso si el cliente que intenta ingresar a mi servidor 
         }
     },
     credentials: true,
+    exposedHeaders: 'Access-Control-Allow-Origin',
 }
 
 app.use(cors(corsOptions));

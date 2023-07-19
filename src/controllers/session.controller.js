@@ -37,7 +37,11 @@ export const loginUser = async (req, res, next) => {
                 })
             }
             if (!user) {
-                return res.status(401).send("Datos incorrectos.")
+                return res.status(401).json({
+                    message: "Datos incorrectos.",
+                    error: "Invalid credentials.",
+                })
+                
             }
             req.session.login = true;
             req.session.user = user;
@@ -47,7 +51,10 @@ export const loginUser = async (req, res, next) => {
 
             req.logger.info(`User logged in < ${req.session.user.email} >`)
 
-            return res.status(200).send(`Bienvenido ${req.session.user.first_name}, tu rol es ${req.session.user.role}`)
+            return res.status(200).json({
+                message: `Bienvenido ${req.session.user.first_name}, tu rol es ${req.session.user.role}`,
+                user: req.session.user,
+            })
         })(req, res, next)
 
     } catch (error) {
